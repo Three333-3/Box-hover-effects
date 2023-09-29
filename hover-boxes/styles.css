@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #378dea, #10d45b);
+}
+.outside-box {
+    margin-top: 200px;
+    height: 500px;
+    width: 500px;
+    border: 1px solid transparent;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 22px 70px 14px;
+    background-color: azure;
+    transition: ease-in .5s;
+}
+.box-one {
+    transition: ease-in-out .5s;
+    width: 175px;
+    height: 175px;
+    background-color: blue;
+    margin-left: -195px;
+    margin-top: 70px;
+    border-top-left-radius: 100%;
+}
+.box-two {
+    width: 175px;
+    height: 175px;
+    background-color: green;
+    margin-left: 175px;
+    margin-top: -175px;
+    border-top-right-radius: 100%;
+    transition: ease-in-out .5s;
+}
+.box-three {
+    width: 175px;
+    height: 175px;
+    background-color: red;
+    margin-left: -195px;
+    margin-top: 10px;
+    border-bottom-left-radius: 100%;
+    transition: ease-in-out .5s;
+}
+.box-four {
+    width: 175px;
+    height: 175px;
+    background-color: rgb(219, 219, 2);
+    margin-left: 175px;
+    margin-top: -175px;
+    border-bottom-right-radius: 100%;
+    transition: ease-in-out .5s;
+}
+.box-one:hover {
+    scale: 1.05;
+    transition: ease-in-out .5s;
+    border-top-left-radius: 10px;
+}
+.box-two:hover {
+    scale: 1.05;
+    transition: ease-in-out .5s;
+    border-top-right-radius: 10px;
+}
+.box-three:hover {
+    transition: ease-in-out .5s;
+    scale: 1.05;
+    border-bottom-left-radius: 10px;
+}
+.box-four:hover {
+    scale: 1.05;
+    transition: ease-in-out .5s;
+    border-bottom-right-radius: 10px;
+}
+
+.outside-box:hover {
+    background-color: rgb(188, 15, 188);
+    transition: ease-in .5s;
+}
